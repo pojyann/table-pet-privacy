@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="桌面寵物隱私權政策，說明 Google Calendar 資料的存取、使用與保護方式。">
+  <title>隱私權政策｜桌面寵物</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="返回桌面寵物首頁">
+      <img class="brand-logo" src="./assets/table-pet-logo.png" alt="">
+      <span>桌面寵物</span>
+    </a>
+    <nav aria-label="主要導覽">
+      <a href="./">首頁</a>
+      <a aria-current="page" href="./privacy.html">隱私權政策</a>
+    </nav>
+  </header>
+
+  <main class="policy-shell">
+    <aside class="policy-summary">
+      <p class="eyebrow">Privacy Policy</p>
+      <h1>隱私權政策</h1>
+      <p>生效日期：2026 年 10 月 27 日</p>
+      <div class="summary-card">
+        <strong>簡要說明</strong>
+        <p>桌面寵物只以唯讀方式取得 Google Calendar 行程，用來在你的電腦上顯示提醒；不會替你修改日曆。</p>
+      </div>
+    </aside>
+
+    <article class="policy-content">
+      <section>
+        <h2>1. 適用範圍</h2>
+        <p>本政策適用於 Windows 桌面應用程式「桌面寵物」（以下稱「本應用程式」），並說明本應用程式連結 Google Calendar 時，如何存取、使用、儲存與保護使用者資料。</p>
+      </section>
+
+      <section>
+        <h2>2. 存取的 Google 使用者資料</h2>
+        <p>在使用者主動授權後，本應用程式會要求 <code>calendar.events.readonly</code> 唯讀權限，並從使用者的主要日曆讀取當日近期活動。實際使用的資料包括：</p>
+        <ul>
+          <li>活動識別碼</li>
+          <li>活動標題</li>
+          <li>活動開始日期與時間</li>
+          <li>活動的 Google Calendar 連結</li>
+        </ul>
+        <p>本應用程式不會讀取 Gmail，也不會建立、修改、分享或刪除 Google Calendar 活動。</p>
+      </section>
+
+      <section>
+        <h2>3. 資料使用方式</h2>
+        <p>上述資料僅用於在使用者自己的 Windows 裝置上顯示當日行程摘要、近期行程提醒，以及開啟相對應的 Google Calendar 頁面。資料不會用於廣告、使用者分析、信用評估或其他與行程提醒無關的目的。</p>
+      </section>
+
+      <section>
+        <h2>4. 資料儲存與保護</h2>
+        <p>Google OAuth 授權權杖會使用 Electron safeStorage 與 Windows 提供的安全儲存能力加密，並保存在使用者自己的裝置。本應用程式不會把日曆活動內容上傳至開發者自有伺服器，也不會建立可供其他使用者查閱的雲端日曆資料庫。</p>
+      </section>
+
+      <section>
+        <h2>5. 資料分享</h2>
+        <p>本應用程式不販售 Google 使用者資料，也不會將日曆活動內容分享給廣告商、資料仲介商或其他第三方。Google API 資料的使用遵循 Google API Services User Data Policy，包括 Limited Use 規定。</p>
+      </section>
+
+      <section>
+        <h2>6. 使用者控制與撤銷權限</h2>
+        <p>使用者可以隨時前往 Google 帳戶的「第三方應用程式與服務」頁面，移除桌面寵物的存取權。撤銷後，本應用程式將無法繼續讀取 Google Calendar，除非使用者再次主動授權。</p>
+        <p><a class="text-link" href="https://myaccount.google.com/connections" target="_blank" rel="noopener noreferrer">前往 Google 帳戶連結管理</a></p>
+      </section>
+
+      <section>
+        <h2>7. 保留期間</h2>
+        <p>行程資料只在程式執行期間用於產生提醒，不會由開發者保留在遠端伺服器。授權權杖保留於使用者裝置，直到使用者撤銷 Google 權限、移除本機應用程式資料，或授權失效為止。</p>
+      </section>
+
+      <section>
+        <h2>8. 政策更新</h2>
+        <p>若本應用程式的資料處理方式或 Google 權限範圍有所變更，本政策將同步更新，並在本頁標示新的生效日期。</p>
+      </section>
+
+      <section>
+        <h2>9. 聯絡方式</h2>
+        <p>如對本政策或 Google 使用者資料的處理方式有疑問，請透過 Google OAuth 同意畫面中顯示的「使用者支援電子郵件」與開發者聯絡。</p>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2026 桌面寵物</p>
+    <a href="./">返回首頁</a>
+  </footer>
+</body>
+</html>
